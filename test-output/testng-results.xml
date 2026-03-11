@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-10T15:38:32 IST" name="Default suite" finished-at="2026-03-10T15:38:45 IST" duration-ms="13090">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.BALCO_Project.runner.TestRunner@4009e306]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2026-03-10T15:38:32 IST" name="Default test" finished-at="2026-03-10T15:38:45 IST" duration-ms="13090">
+      <class name="com.BALCO_Project.runner.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.BALCO_Project.runner.TestRunner@4009e306]" started-at="2026-03-10T15:38:32 IST" name="setUpClass" finished-at="2026-03-10T15:38:32 IST" duration-ms="756" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@56637cff]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.BALCO_Project.runner.TestRunner@4009e306]" started-at="2026-03-10T15:38:32 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-03-10T15:38:42 IST" duration-ms="9632" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Open ACD Form"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Entry Forms Navigation"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <span _ngcontent-ng-c2105395647="" class="menu-title menu-top-title show-top-title-const">...</span> is not clickable at point (121, 175). Other element would receive the click: <div class="swal2-container swal2-center swal2-backdrop-show" data-swal2-theme="light" style="overflow-y: auto;">...</div>
+  (Session info: chrome=145.0.7632.160)
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7448232cb10c362f7ddf6bdc380b2caf, clickElement {id=f.B147B2F746588C9B70508B41F5334243.d.B1CBFE6C771BC08E76932BFE5F6B5554.e.399}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.160, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59826}, goog:processID: 1884, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59826/devtoo..., se:cdpVersion: 145.0.7632.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (7448232cb10c362f7ddf6bdc380b2caf)] -> xpath: //span[normalize-space()='Entry Forms'][1]]
+Session ID: 7448232cb10c362f7ddf6bdc380b2caf]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span _ngcontent-ng-c2105395647="" class="menu-title menu-top-title show-top-title-const">...</span> is not clickable at point (121, 175). Other element would receive the click: <div class="swal2-container swal2-center swal2-backdrop-show" data-swal2-theme="light" style="overflow-y: auto;">...</div>
+  (Session info: chrome=145.0.7632.160)
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7448232cb10c362f7ddf6bdc380b2caf, clickElement {id=f.B147B2F746588C9B70508B41F5334243.d.B1CBFE6C771BC08E76932BFE5F6B5554.e.399}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.160, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59826}, goog:processID: 1884, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59826/devtoo..., se:cdpVersion: 145.0.7632.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (7448232cb10c362f7ddf6bdc380b2caf)] -> xpath: //span[normalize-space()='Entry Forms'][1]]
+Session ID: 7448232cb10c362f7ddf6bdc380b2caf
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at com.BALCO_Project.pom.AnodeCathodeDistance.clickMenu(AnodeCathodeDistance.java:36)
+at com.BALCO_Project.stepDefinitions.AnodeCathodeDistance_Step.user_clicks_process_control(AnodeCathodeDistance_Step.java:22)
+at ✽.User clicks Process Control(file:///C:/Users/Admin/eclipse-workspace/BALCO_Project/src/test/resources/Feature/AnodeCathodeDistance.feature:10)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.BALCO_Project.runner.TestRunner@4009e306]" started-at="2026-03-10T15:38:42 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-03-10T15:38:45 IST" duration-ms="2612" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify user is able to Login into the Balco LogbookApplication successfully"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Automating the Login Page Functionality of Balco LogBook Application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.BALCO_Project.runner.TestRunner@4009e306]" started-at="2026-03-10T15:38:45 IST" name="tearDownClass" finished-at="2026-03-10T15:38:45 IST" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.BALCO_Project.runner.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
